@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./lib"
 	"flag"
 	"fmt"
+	"github.com/zlikun/mysql-http-agent/lib"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"log"
@@ -17,7 +17,7 @@ This is an HTTP interface for the MySQL HTTP Agent.
 
 Run:
 
-	agent [-host=<host>] [-port=<port>]
+	mysql-http-agent [-host=<host>] [-port=<port>]
 
 Example:
 
