@@ -1,0 +1,22 @@
+today_user_sign_in_count:
+  data_source: user-1
+  interval: 1m
+  timeout: 15s
+  sql: >
+    sql_part_1
+    sql_part_2
+  params:
+    user_id: 10000
+  metrics:
+    sign_in_count: sign_in_count
+today_user_sign_up_count:
+  data_source: user-1
+  interval: 1m
+  timeout: 15s
+  sql: >
+    sql_part_1
+    sql_part_2
+  params:
+    user_id: 10000
+  metrics:
+    sign_up_count: sign_up_count

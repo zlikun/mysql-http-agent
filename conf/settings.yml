@@ -1,0 +1,19 @@
+global:
+  query_interval: 1m
+  query_timeout: 15s
+
+data_sources:
+  user-1:
+    url: user-1-url
+    username: 1-username
+    password: 1-password
+    properties:
+      key1: value1
+      key2: value2
+  user-2:
+    url: user-2-url
+    username: 2-username
+    password: 2-password
+    properties:
+      key1: value1
+      key2: value2
